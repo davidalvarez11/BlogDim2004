@@ -1,0 +1,76 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    color: rgb(39, 26, 26);
+    text-align: center;
+    font-family: 'Franklin Gothic Medium';
+    margin: 5% 25% 5% 25%;
+
+}
+
+#cabecera
+{
+    background: url(https://www.elcolombiano.com/documents/10157/0/640x280/0c0/0d0/none/11101/XFLH/hinchas-medellin-atanasio-girardot-640x280-12102014-cortesia.jpg);
+        background-position: 0% 80%;
+        
+
+
+    font-weight: bold;
+    box-shadow: 0px 7px 30px 5px rgba(0, 0, 0, 2);
+    color: white;
+    margin: 0;
+    padding: 0.5cm;
+    font-size: 20px;
+}
+#cabecera #dim
+{
+    font-style: italic;
+    font-size: 30px;
+}
+#escudo
+{
+
+    max-width: 100px;
+    max-height: 100px;
+    margin-top: 100%;
+    display: inline-block;
+    position: relative;
+    margin: auto;
+    padding-top: 5px;
+    text-align: center;
+    filter: drop-shadow(0 2px 10px rgba(0, 0, 0, 10))
+
+}
+
+#container
+{
+    background-color: rgb(230, 216, 216);
+    width: 100%;
+    padding: 1cm;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    margin-top: 0px;
+}
+#container h1
+{
+    font-family: fantasy;
+    color: rgb(145, 1, 1);
+    font-size: 25px;
+    margin-top: 4%;
+    padding-bottom: 20px;
+}
+
+#container p
+{
+    font-family: sans-serif;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: double;
+    padding-top: 5px;
+
+}
